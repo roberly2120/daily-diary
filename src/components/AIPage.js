@@ -1,8 +1,8 @@
 import OpenAI from "openai"
 import { useState } from "react"
 
-const key = process.env.OPENAI_API_KEY;
-const openai = new OpenAI({apiKey: key, dangerouslyAllowBrowser: true})
+const APIkey = process.env.OPENAI_API_KEY;
+const openai = new OpenAI({apiKey: APIkey, dangerouslyAllowBrowser: true})
 
 export default function AIPage (props) {
     const [response, setResponse] = useState('')
