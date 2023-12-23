@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+.main-title {
+  margin-left: 3.5%;
+  text-align: left;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-button {
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 8px;
+}
+.menu-button:hover {
+  color:#fbfbfb;
+  background-color: mediumpurple;
+  cursor: pointer;
+}
+.posts-div {
+  display: flex;
+  justify-content: flex-start;
+}
+.post-item {
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+.post-list {
+  width:auto
+}
+.post-item:hover {
+  cursor: pointer;
+  color:#fbfbfb;
+  background-color: mediumpurple;
+}
+.current-post {
+  flex: 1;
+  border-left: 1px solid black;
+  margin: 5px;
+}
+.journal-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+textarea {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 300px;
+  width: 500px;
+}
+
+
